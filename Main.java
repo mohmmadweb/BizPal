@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Max amount: "+printNumber((String.valueOf(Integer.MAX_VALUE))));
         String amount = scanner.next();
         int percentage = scanner.nextInt();
-        System.out.println(getDailyProfit(amount,percentage));
+        System.out.println(getDailyProfit(amount,percentage) +" Rial");
     }
     public static String calculateProfit(String amount, int percentage, int currentMonth){
         String answer="";
